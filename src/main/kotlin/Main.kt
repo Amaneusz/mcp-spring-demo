@@ -8,7 +8,8 @@ import io.modelcontextprotocol.kotlin.sdk.client.SseClientTransport
 import kotlinx.coroutines.runBlocking
 
 fun main() {
-    val url = "https://mcp.deepwiki.com/sse"
+//    val url = "https://mcp.deepwiki.com/sse" // This one does not work anymore :)
+    val url = "https://mcp.api.coingecko.com/sse"
     val token = ""
 
     val client = createAsyncClient(url, token)
